@@ -1,11 +1,9 @@
   body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
   }
-  
   .container {
     width: 400px;
+    height: 500px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -32,7 +30,7 @@
     margin-top: 10px;
     padding: 15px;
     font-size: 16px;
-    border: 2px solid red;
+    border: 2px solid skyblue;
     border-radius: 8px;
     outline: none;
     background-color: #f9f9f9;
@@ -40,7 +38,7 @@
   }
   
   .input-box input:focus {
-    border-color: red;
+    border-color: skyblue;
     box-shadow: 0 0 10px rgba(62, 142, 65, 0.2);
   }
   
@@ -50,7 +48,7 @@
   }
   
   .btn {
-    background-color: red;
+    background-color: skyblue;
     color: #fff;
     font-size: 16px;
     padding: 15px;
@@ -61,7 +59,7 @@
   }
   
   .btn:hover {
-    background-color: red;
+    background-color: skyblue;
   }
   
   .reset-pass {
@@ -71,7 +69,7 @@
   }
   
   .reset-pass a {
-    color: red;
+    color: skyblue;
     text-decoration: none;
   }
   
