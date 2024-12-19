@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className='text-6xl font-bold'>Read, Write & Explore <span className='text-red-400'>Tech World</span> with <span className='text-sky-400'>Arivani</span> Blogs</h1>
             </div>
 
-            <button className='border px-7 py-1 rounded-full border-sky-400 text-sky-600 hover:border-gray-300 hover:text-gray-300'>Explore🧐</button>
+            <button className='mt-5 border px-7 py-1 rounded-full border-sky-400 text-sky-600 hover:border-gray-300 hover:text-gray-300'>Explore🧐</button>
 
 
             
