@@ -1,0 +1,82 @@
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  .input-box input:focus {
+    border-color: red;
+    box-shadow: 0 0 10px rgba(62, 142, 65, 0.2);
+  }
+  
+  .input-box input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .btn {
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: red;
+  }
+  
+  .reset-pass {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .reset-pass a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .reset-pass a:hover {
+    text-decoration: underline;
+  }
+  
+  
